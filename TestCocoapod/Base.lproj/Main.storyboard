@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NAQ-Ja-q2T">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="Q43-Y8-NkG">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="NAQ-Ja-q2T" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="Ctw-v4-hEs"/>
+                        <viewControllerLayoutGuide type="bottom" id="jZe-bM-qDs"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="ES4-Sg-wXz">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S8i-3W-qwe">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="78" width="400" height="800"/>
+                                </variation>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="S8i-3W-qwe" secondAttribute="trailing" id="BJP-R5-aHZ"/>
+                            <constraint firstItem="S8i-3W-qwe" firstAttribute="top" secondItem="Ctw-v4-hEs" secondAttribute="bottom" id="XZR-3y-nt7"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="S8i-3W-qwe" secondAttribute="bottom" id="aob-9S-p3s"/>
+                            <constraint firstItem="S8i-3W-qwe" firstAttribute="leading" secondItem="ES4-Sg-wXz" secondAttribute="leadingMargin" id="qa1-sv-B9W"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="S8i-3W-qwe"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="BJP-R5-aHZ"/>
+                                <exclude reference="XZR-3y-nt7"/>
+                                <exclude reference="aob-9S-p3s"/>
+                                <exclude reference="qa1-sv-B9W"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="S8i-3W-qwe"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="BJP-R5-aHZ"/>
+                                <include reference="XZR-3y-nt7"/>
+                                <include reference="aob-9S-p3s"/>
+                                <include reference="qa1-sv-B9W"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="myWebView" destination="S8i-3W-qwe" id="Am2-pt-CWv"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lDK-Kc-mCn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="57" y="-78"/>
         </scene>
     </scenes>
 </document>
