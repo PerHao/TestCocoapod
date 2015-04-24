@@ -15,9 +15,7 @@
 		9087CA651ADC9FA900975E8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9087CA641ADC9FA900975E8B /* Images.xcassets */; };
 		9087CA681ADC9FA900975E8B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9087CA661ADC9FA900975E8B /* LaunchScreen.xib */; };
 		9087CA741ADC9FA900975E8B /* TestCocoapodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9087CA731ADC9FA900975E8B /* TestCocoapodTests.m */; };
-		90A94D581AE9F4F900B4A5BC /* 跨行转账还款协议.docx in Resources */ = {isa = PBXBuildFile; fileRef = 90A94D571AE9F4F900B4A5BC /* 跨行转账还款协议.docx */; };
 		90A94D5A1AEA0BC400B4A5BC /* kuahangzhuanzhangxieyi.htm in Resources */ = {isa = PBXBuildFile; fileRef = 90A94D591AEA0BC400B4A5BC /* kuahangzhuanzhangxieyi.htm */; };
-		90A94D5C1AEA107700B4A5BC /* khzz.htm in Resources */ = {isa = PBXBuildFile; fileRef = 90A94D5B1AEA107700B4A5BC /* khzz.htm */; };
 		FF692ABBE60F083FB4CD9260 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCBD65F6A69AC033BEF3E89 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -49,9 +47,7 @@
 		9087CA6D1ADC9FA900975E8B /* TestCocoapodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCocoapodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9087CA721ADC9FA900975E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9087CA731ADC9FA900975E8B /* TestCocoapodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCocoapodTests.m; sourceTree = "<group>"; };
-		90A94D571AE9F4F900B4A5BC /* 跨行转账还款协议.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "跨行转账还款协议.docx"; sourceTree = "<group>"; };
 		90A94D591AEA0BC400B4A5BC /* kuahangzhuanzhangxieyi.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kuahangzhuanzhangxieyi.htm; sourceTree = "<group>"; };
-		90A94D5B1AEA107700B4A5BC /* khzz.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = khzz.htm; sourceTree = "<group>"; };
 		F79F10ADFF265741D5CDC7D4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,8 +116,6 @@
 				906D96F41AE7C2A9007F2D5C /* pinyin.h */,
 				9087CA5E1ADC9FA900975E8B /* ViewController.h */,
 				9087CA5F1ADC9FA900975E8B /* ViewController.m */,
-				90A94D571AE9F4F900B4A5BC /* 跨行转账还款协议.docx */,
-				90A94D5B1AEA107700B4A5BC /* khzz.htm */,
 				90A94D591AEA0BC400B4A5BC /* kuahangzhuanzhangxieyi.htm */,
 				9087CA611ADC9FA900975E8B /* Main.storyboard */,
 				9087CA641ADC9FA900975E8B /* Images.xcassets */,
@@ -239,11 +233,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90A94D581AE9F4F900B4A5BC /* 跨行转账还款协议.docx in Resources */,
 				9087CA631ADC9FA900975E8B /* Main.storyboard in Resources */,
 				90A94D5A1AEA0BC400B4A5BC /* kuahangzhuanzhangxieyi.htm in Resources */,
 				9087CA681ADC9FA900975E8B /* LaunchScreen.xib in Resources */,
-				90A94D5C1AEA107700B4A5BC /* khzz.htm in Resources */,
 				9087CA651ADC9FA900975E8B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
